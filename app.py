@@ -16,7 +16,7 @@ COMPLETIONS_API_PARAMS = {
     "model": COMPLETIONS_MODEL,
 }
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def search_documentation(df, user_query, n=3):
     user_query_embedding = openai.Embedding.create(input=user_query, model=EMBEDDING_MODEL)['data'][0]['embedding']
